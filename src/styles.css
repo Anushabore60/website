@@ -44,6 +44,24 @@ section img.background {
   width: 100vmax;
   z-index: -1;
 }
+.textanimation{
+  position: absolute;
+  left: 0;
+  animation: slide-to-centre 3s forwards ease-in-out;
+}
+@keyframes slide{
+  0%{
+    left: -100%;
+  }
+  50%{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  100%{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
 
 h1 {
   font-family: "Cormorant Garamond", serif;
@@ -79,6 +97,7 @@ p.large {
 
 p.small {
   font-size: 15px;
+  
 }
 
 hr {
@@ -126,3 +145,18 @@ img.socialIcon {
 .icon{
   transition: fill 0.35s ease-in-out;
 }
+.glass-container{
+  width: 50%;
+  padding: 4rem;
+  margin: 3rem auto;
+  text-align: enter;
+  backdrop-filter: blur(40px);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: black;}
+  .glass-container:hover{
+ transform: scale(1.05);
+  }
+  
