@@ -6,11 +6,11 @@
  */
 
 import React from "react";
-const arrowSvg = "/images/down-arrow.svg";
+import arrowSvg from "../../public/images/down-arrow.svg";
 import PropTypes from "prop-types";
-import image from "../../public/images/backgroundimg.jpg";
+import image from "../../public/images/backgroundimg.jpeg";
 
-const imageAltText = "A key board with some stuff on the desktop which represents the working mode of a tech enthusiastic"
+const imageAltText = ""
 const Home = ({ name, title }) => {
   return (
     <section id="home" className="min-height">
