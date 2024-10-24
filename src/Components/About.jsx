@@ -1,6 +1,6 @@
 
 import React from "react";
- import image from "../images/background3.jpg";
+ import image from "../../public/images/background3.jpg";
 const imageAltText = "purple and blue abstract background";
 const description =
   "I’m an enthusiastic web development learner and an undergraduate student at RGUKT-Basar, passionate about creating modern, responsive web applications using the latest technologies."

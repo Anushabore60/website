@@ -1,6 +1,6 @@
 
 import React from "react";
-import image from "../images/img1.jpg";
+import image from "../../public/images/img1.jpg";
 import { title } from "process";
 const imageAltText = "desktop with books and laptop";
 const projectList = [

@@ -6,9 +6,9 @@
  */
 
 import React from "react";
-import arrowSvg from "../images/down-arrow.svg";
+import arrowSvg from "../../public/images/down-arrow.svg";
 import PropTypes from "prop-types";
-import image from "../images/backgroundimg.jpg";
+import image from "../../public/images/backgroundimg.jpg";
 
 const imageAltText = "A key board with some stuff on the desktop which represents the working mode of a tech enthusiastic"
 const Home = ({ name, title }) => {
